@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "0.12"
+deploy:
+  api_key:
+    secure: cc4f5d1a-5d5e-4d91-877b-2ae828861a1b
+  app: nodejs-express-load
+  on:
+    repo: smileofninja/Node-JS-Express-Load
+
