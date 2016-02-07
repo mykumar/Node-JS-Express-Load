@@ -1,0 +1,12 @@
+<form action="/Calculate" method="post">
+	<input type="hidden" name="operation" value="<%- operation %>" />
+	<label>Number 1</label>
+	<input type="text" name="number1" />
+	<label>Number 2</label>
+	<input type="text" name="number2" />
+	<input type="submit" value="Calculate" />
+</form>
+
+<% if(typeof(result) != 'undefined') { %>
+	<p>O result <%= result %>.</p>
+<% } %>

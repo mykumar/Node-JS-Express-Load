@@ -1,0 +1,33 @@
+{
+  "name": "express-load-app",
+  "version": "1.0.0",
+  "description": "Node JS Express-Load to load the controllers and routers",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smileofninja/Node-JS-Express-Load.git"
+  },
+  "author": "smileofninja",
+  "bugs": {
+    "url": "https://github.com/danielfs/node-api/issues"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "engines": {
+    "node": "0.12.2"
+  },
+  "homepage": "https://github.com/smileofninja/Node-JS-Express-Load",
+  "dependencies": {
+    "accounting": "^0.4.1",
+    "body-parser": "^1.12.4",
+    "ejs": "^2.3.1",
+    "express": "^4.12.4",
+    "express-load": "^1.1.14"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^6.0.3"
+  }
+}
