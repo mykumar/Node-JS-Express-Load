@@ -1,2 +1,17 @@
 # Node-JS-Express-Load
-Node JS Express-Load to load the controllers and routers, best way to divide the node js modules
+
+cmpe273-lab2
+============
+
+Node JS Express-Load to load the controllers and routers
+
+### To Install Dependencies ###
+
+```sh
+npm install
+```
+
+### To run the application
+```sh
+node index.js
+```
