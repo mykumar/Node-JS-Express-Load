@@ -1,7 +1,5 @@
 # Node-JS-Express-Load
 
-cmpe273-lab2
-============
 
 Node JS Express-Load to load the controllers and routers
 
